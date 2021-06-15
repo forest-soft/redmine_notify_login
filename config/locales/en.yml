@@ -1,0 +1,3 @@
+# English strings go here for Rails i18n
+en:
+  notify_login_mail_body: You have logged in. If you do not remember it, please contact the administrator.
