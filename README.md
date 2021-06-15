@@ -9,6 +9,4 @@ Redmineのインストールディレクトリ配下のpluginsディレクトリ
 ```
 cd {REDMINE_ROOT}/plugins
 git clone https://github.com/forest-soft/redmine_notify_login.git redmine_notify_login
-cd ../
-bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 ```
