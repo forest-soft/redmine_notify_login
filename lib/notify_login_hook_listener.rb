@@ -1,4 +1,4 @@
-class PollsHookListener < Redmine::Hook::ViewListener
+class NotifyLoginHookListener < Redmine::Hook::ViewListener
 	def controller_account_success_authentication_after(context)
 		::Mailer.security_notification(
 			context[:user],
